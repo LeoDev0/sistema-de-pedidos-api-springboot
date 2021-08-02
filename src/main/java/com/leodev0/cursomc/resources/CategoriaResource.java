@@ -17,7 +17,7 @@ public class CategoriaResource {
 	@Autowired
 	private CategoriaService service;
 	
-//	@GetMapping
+//	@GetMapping("/{id}")
 	@RequestMapping(value="/{id}", method=RequestMethod.GET)
 	public ResponseEntity<?> find(@PathVariable Integer id) {
 		Categoria obj = service.buscar(id);
