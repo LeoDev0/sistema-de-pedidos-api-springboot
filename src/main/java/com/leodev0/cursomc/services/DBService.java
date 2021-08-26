@@ -115,6 +115,7 @@ public class DBService {
 		
 //		------------------------------
 		
+//		Para o envio de email funcionar trocar o email 'maria@gmail.com' por um gmail válida
 		Cliente cli1 = new Cliente(null, "Maria Silva", "maria@gmail.com", "36378912377", TipoCliente.PESSOAFISICA);
 		
 		cli1.getTelefones().addAll(Arrays.asList("27363323", "93838392"));
